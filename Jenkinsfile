@@ -5,8 +5,6 @@ pipeline {
                 registryCredential = 'bralech-dockerhub'
                 dockerImage = ''
             }
-
-    
     agent none
     stages {
         stage('Check scm') {
