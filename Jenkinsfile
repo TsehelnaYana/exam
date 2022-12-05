@@ -32,7 +32,7 @@ pipeline {
             }
             post {
                 always {
-                    junit skipPublishingChecks: true, testResults: 'test-reports/*.xml'
+                    junit 'test-reports/*.xml'
                     }
                 success {
                     echo "Application testing successfully completed "
