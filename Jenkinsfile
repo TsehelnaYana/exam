@@ -4,7 +4,7 @@ pipeline {
                 registry = "bralech/jenkins-flask-app"
                 registryCredential = 'bralech-dockerhub'
                 dockerImage = ''
-            }
+            } 
     agent none
     stages {
         stage('Check scm') {
