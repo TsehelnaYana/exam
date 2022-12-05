@@ -10,4 +10,4 @@ RUN add-apt-repository \
         $(lsb_release -cs) stable" 
 RUN apt-get update && apt-get install -y docker-ce-cli
 USER jenkins
-RUN jenkins-plugin-cli
+RUN jenkins-plugin-cli 
