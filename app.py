@@ -10,7 +10,7 @@ print(f"Your birthday is in {time_diff}")
 
 @app.route('/')
 def hello_world():
-    return 'Tsehelna Yana'
+    return 'Tsehelna Yana.'
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
