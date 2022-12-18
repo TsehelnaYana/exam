@@ -1,7 +1,7 @@
 pipeline {
     options {timestamps()}
      environment {
-                registry = "852i852/lab3-jenkins"
+                registry = "852i852/exam-jenkins"
                 registryCredential = '8e32e35f-0483-4583-a438-c88801a5540b'
                 dockerImage = ''
             } 
