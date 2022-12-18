@@ -11,7 +11,7 @@ class FlaskAppTests(unittest.TestCase):
     def test_get_hello_endpoint(self):
         r = self.app.get('/')
         self.assertEqual(r.status, '200 OK')
-        self.assertEqual(r.data, b'print(f"Your birthday is in {time_diff}")')
+        self.assertEqual(r.data, b'(f"Your birthday is in {time_diff}")')
 
 
 if __name__ == '__main__':
