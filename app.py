@@ -9,7 +9,7 @@ time_diff = bday - today
 
 @app.route('/')
 def hello_world():
-    return 'print(f"Your birthday is in {time_diff}")'
+    print(f"Your birthday is in {time_diff}")'
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
