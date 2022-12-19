@@ -3,7 +3,6 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-  
 x=2
 sumx=0
 print('Введіть число n')
